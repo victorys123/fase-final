@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    font-family: 'Patrick Hand', sans-serif;   
+    background-color:lightblue;
+    flex-direction: row;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 221, 30);
+    flex-direction: row;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.logo{
+    width: 200px;
+    height: 80px;
+}
+
+#secao1 img{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.mãos{
+    width: 300px;
+    height: 300px;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+
+#secao2 img{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+#secao3 img{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+#secao4 img{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+
+.redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.redes{
+    padding: 15px;
+    width: 50px;
+    height: 50px;
+}
+
+
+@media (min-width: 600px){
+    header div input{
+        display: inline-block;
+        background-color: rgba(255,69,0,0.3);
+        border: 5px dotted purple;
+        border-right: none;
+        height: 100%;
+        box-sizing: border-box;
+        color: white;
+    }
+
+
+
+
+
+
