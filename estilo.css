@@ -18,6 +18,11 @@ a{
     color: black;
 }
 
+p{
+    margin: 0;
+    padding: 0;
+}
+
 .logo{
     width: 200px;
     height: 80px;
@@ -34,10 +39,7 @@ a{
     width: 300px;
     height: 300px;
 }
-p{
-    margin: 0;
-    padding: 0;
-}
+
 
 #secao2 img{
     display: flex;
@@ -66,25 +68,36 @@ p{
     justify-content: center;
     align-items: center;
     flex-direction: row;
-}
-
-.redes{
     padding: 15px;
     width: 50px;
     height: 50px;
 }
 
 
-@media (min-width: 600px){
-    header div input{
-        display: inline-block;
-        background-color: rgba(255,69,0,0.3);
-        border: 5px dotted purple;
-        border-right: none;
-        height: 100%;
-        box-sizing: border-box;
-        color: white;
-    }
+
+@import url(tiny.css) (min-width:300px);
+@import url(small.css) (min-width:600px);
+@import url(big.css) (min-width:900px);
+
+@media screen and (max-width: 300px) {
+    /* estilos */
+}
+@media screen and (max-width: 600px) {
+    /* Estilos */
+}
+
+@media screen and 
+(min-width: 200px) and 
+(max-width: 640px)
+
+@media screen and 
+(min-width: 600px) and 
+(orientation:landscape)
+
+
+@media screen and 
+(max-width: 380px) and 
+(orientation:portrait)
 
 
 

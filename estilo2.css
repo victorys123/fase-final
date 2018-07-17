@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    font-family: 'Patrick Hand', sans-serif;   
+    background-color:lightblue;
+    flex-direction: row;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 221, 30);
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    width: 200px;
+    height: 80px;
+}
+
+.mãos{
+    height: 300px;
+    width: 300px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.como{
+    height: 300px;
+    width: 300px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.mobile{
+    height: 300px;
+    width: 300px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+
+.sobre{
+    height: 300px;
+    width: 300px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.faq{
+    height: 300px;
+    width: 300px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+#secao1{
+    font-size: 19px;
+    align-items: center;
+    display: inline;
+    justify-content: center;
+}
+
+#secao2{
+    
+    font-size: 19px;
+    align-items: center;
+    display: inline;
+    justify-content: center;
+}
+
+#secao3{
+    font-size: 19px;
+    align-items: center;
+    display: inline;
+    justify-content: center;   
+}
+
+#secao4{
+    font-size: 19px;
+    align-items: center;
+    display: inline;
+    justify-content: center;   
+}
+
+#seçao5{
+    font-size: 19px;
+    align-items: center;
+    display: inline;
+    justify-content: center;
+}
+
+@import url(tiny.css) (min-width:300px);
+@import url(small.css) (min-width:600px);
+@import url(big.css) (min-width:900px);
+
+@media screen and (max-width: 300px) {
+    display: flex;
+}
+@media screen and (max-width: 600px) {
+   display: flex;
+}
+
+@media screen and 
+(min-width: 200px) and 
+(max-width: 640px)
+
+/* @media screen and 
+(min-width: 600px) and 
+(orientation:landscape)
+
+
+@media screen and 
+(max-width: 380px) and 
+(orientation:portrait) */
